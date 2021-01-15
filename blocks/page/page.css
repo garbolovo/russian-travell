@@ -1,0 +1,29 @@
+.page {
+
+  padding-bottom: 1px;
+  background: #2A2C2F;
+  padding-top: 28px;
+  font-family: 'Inter', Helvetica Neue, serif, sans-serif;
+
+
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+@media (max-width: 424px) {
+  .page {
+    min-height: 10023px;
+    padding-top: 16px;
+    padding-bottom: 1px;
+  }
+
+
+}
+
+
+
+

@@ -1,0 +1,38 @@
+.footer__link {
+    padding: 0;
+    margin: 0;
+    margin-right: 18px;
+    border-radius: 0;
+    height: 18px;
+    width: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+
+
+}
+
+.footer__link:nth-last-of-type {
+    margin-right: 0;
+}
+
+@media (max-width: 424px) {
+.footer__link {
+
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    height: 18px;
+    text-decoration: none;
+    font-size: 16px;
+    /*line-height: 18px;*/
+    color: #ffffff;
+    line-height: 24px;
+    width: 74px;
+}
+
+
+}
+
+

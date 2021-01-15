@@ -1,0 +1,108 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/inter.css");
+
+/* page */
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/flex-wrapper/flex-wrapper.css");
+
+/* lead */
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../blocks/lead/__image/lead__image.css");
+@import url("../blocks/lead/__caption/lead__caption.css");
+/* @import url("../blocks/lead/__title/lead__title.css"); */
+
+
+/* intro */
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__list/intro__list.css");
+@import url("../blocks/intro/__text/intro__text.css");
+@import url("../blocks/intro/__title/intro__title.css");
+
+/* photo-grid */
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__item/photo-grid__item.css");
+
+/* grid - images */
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_arisa.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_atharva-tulsi.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_baikal-2.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_baikal.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_elbrus.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_ergaki.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_kamchatka-1.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_kamchatka-2.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_kondratiev.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_sochi.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_train.css");
+@import url("../blocks/photo-grid/__item/_type/photo-grid__item_type_tuman.css");
+
+/* .places */
+@import url("../blocks/places/places.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__image/place__image.css");
+@import url("../blocks/place/__description/__paragraph/description__paragraph.css");
+@import url("../blocks/place/__title/place__title.css");
+@import url("../blocks/place/__website/place__website.css");
+
+@import url("../blocks/place/__website/__url-heading/place__website__url-heading.css");
+@import url("../blocks/place/__website/__link/place__website__link.css");
+
+
+/*cover*/
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__background/cover__background.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
+@import url("../blocks/cover/__overlay/cover__overlay.css");
+
+/*@import url("../blocks/feynman/__link/feynman__link.css");*/
+/*@import url("../blocks/feynman/__picture/feynman__picture.css");*/
+/*@import url("../blocks/feynman/__subtitle/feynman__subtitle.css");*/
+/*@import url("../blocks/feynman/__title/feynman__title.css");*/
+
+/*footer*/
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+
+/*@import url("../blocks/footer/__author/footer__author.css");*/
+
+/*@import url("../blocks/footer/__column/_content/footer__column_content_copyright.css");*/
+/*@import url("../blocks/footer/__column/_content/footer__column_content_info.css");*/
+/*@import url("../blocks/footer/__column/_content/footer__column_content_social.css");*/
+/*@import url("../blocks/footer/__column/footer__column.css");*/
+
+/*@import url("../blocks/footer/__column-heading/footer__column-heading.css");*/
+
+/*@import url("../blocks/footer/__column-link/footer__column-link.css");*/
+
+/*@import url("../blocks/footer/__column-links/footer__colunm-links.css");*/
+
+/*@import url("../blocks/footer/__columns/footer__colunms.css");*/
+
+/*@import url("../blocks/footer/__social-icons/footer__social-icons.css");*/
+
+
+/*header*/
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__lang-links/header__lang-links.css");
+@import url("../blocks/header/__lang-link/header__lang-link.css");
+
+
+/*
+@import url("../blocks/header/__link/header__link.css");
+ */
+/*@import url("../blocks/header/__main-illustration/header__main-illustration.css");*/
+/*@import url("../blocks/header/__square-pic/header__square-pic.css");*/
+/*@import url("../blocks/header/__subtitle/header__subtitle.css");*/
+/*@import url("../blocks/header/__title/header__title.css"); **/
+
+
+
+
+

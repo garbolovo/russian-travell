@@ -1,0 +1,9 @@
+.place__website__link {
+  color: #ffffff;
+  max-width: 456px;
+  min-height: 22px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
+}

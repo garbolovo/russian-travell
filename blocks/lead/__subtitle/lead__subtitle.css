@@ -1,0 +1,86 @@
+/* Widescreen  1280px*/
+@media (min-width: 1280px) {
+
+  .lead__subtitle {
+    color: #ffffff;
+    width: 640px;
+    height: 72px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 32px;
+
+  }
+
+}
+
+
+/* normal screen 1024 - 1279*/
+@media(max-width: 1279px) and (min-width: 1024px) {
+  .lead__subtitle {
+    color: #ffffff;
+    width: 640px;
+    height: 72px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-top: 32px;
+
+  }
+
+
+}
+
+/*ipad*/
+@media(min-width: 768px) and (max-width: 1024px) {
+  .lead__subtitle {
+    color: #ffffff;
+    width: 640px;
+    height: 72px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 56px;
+    margin-top: 32px;
+
+  }
+}
+
+/*big phone*/
+@media(min-width: 425px) and (max-width: 767px) {
+  .lead__subtitle {
+    color: #ffffff;
+    width: 425px;
+    height: 55px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 16px;
+
+  }
+}
+
+
+@media (max-width: 424px) {
+  .lead__subtitle {
+    color: #ffffff;
+    /*color: #ffffff;*/
+    width: 288px;
+    /*height: 55px;*/
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+
+  }
+
+
+}
