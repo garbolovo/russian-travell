@@ -1,4 +1,6 @@
 .photo-grid__item_type_kondratiev {
   background-image: url("../../../../images/photo-grid-kondratiev.jpg");
-  background-size: contain;
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+
 }

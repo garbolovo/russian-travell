@@ -11,9 +11,12 @@
   .photo-grid__item {
     padding: 0;
     margin: 0;
-    width: 400px;
-    height: 300px;
-    margin-bottom: 5px;
+    /*width: 420px;*/
+    width: calc(95%);
+
+
+    height: 340px;
+    margin-bottom: 16px;
 
 
   }

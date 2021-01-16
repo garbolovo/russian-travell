@@ -1,4 +1,5 @@
 .photo-grid__item_type_train {
   background-image: url("../../../../images/photo-grid-train.jpg");
-  background-size: contain;
+  background-size: 100% 100%;
+
 }
