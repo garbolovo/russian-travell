@@ -1,10 +1,10 @@
-.description__paragraph {
+.place__description__paragraph {
   color: #ffffff;
 }
 
 /*widescreens over 1280*/
 @media (min-width: 1281px) {
-  .description__paragraph {
+  .place__description__paragraph {
     padding: 0;
     margin: 0;
     text-align: left;
@@ -23,7 +23,7 @@
 
 /*normal*/
 @media (min-width: 1025px) and (max-width: 1280px) {
-  .description__paragraph {
+  .place__description__paragraph {
     padding: 0;
     margin: 0;
     text-align: left;
@@ -41,7 +41,7 @@
 
 /*iPads & big phones*/
 @media(min-width: 768px) and (max-width: 1024px) {
-  .description__paragraph {
+  .place__description__paragraph {
     padding: 0;
     margin: 0;
     text-align: left;
@@ -58,7 +58,7 @@
 
 @media(min-width: 425px) and (max-width: 767px) {
 
-  .description__paragraph {
+  .place__description__paragraph {
     padding: 0;
     margin: 0;
     text-align: left;
@@ -77,12 +77,12 @@
 
 
 
-.description__paragraph:last-of-type {
-  margin-bottom: 0px;
+.place__description__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media (max-width: 424px) {
-.description__paragraph {
+.place__description__paragraph {
   padding: 0;
   margin: 0;
   text-align: left;
