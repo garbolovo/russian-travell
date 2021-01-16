@@ -26,17 +26,10 @@
 @media (max-width: 424px) {
 
   .cover__subtitle {
-    padding: 0;
-    margin: 0;
-    /*margin: 0 auto;*/
     max-width: 288px;
     min-height: 48px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    color: #ffffff;
-    /*margin-top: 32px;*/
     text-align: center;
     position: relative;
 
