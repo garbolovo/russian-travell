@@ -1,4 +1,6 @@
-
+.header {
+  text-rendering: optimizeLegibility;
+}
 
 /* Widescreen  1280px*/
 @media(min-width: 1281px) {

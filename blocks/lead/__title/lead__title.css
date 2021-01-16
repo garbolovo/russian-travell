@@ -1,3 +1,7 @@
+.lead__title {
+  text-rendering: optimizeLegibility;
+}
+
 /* Widescreen  1280px*/
 @media (min-width: 1281px) {
 
