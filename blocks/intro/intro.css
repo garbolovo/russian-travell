@@ -1,4 +1,6 @@
-/* 1280 */
+
+
+/* 1280 widescreen */
 @media (min-width: 1281px) {
   .intro {
     max-width: 690px;

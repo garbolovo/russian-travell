@@ -11,7 +11,8 @@
   text-align: right;
   display: inline-block;
   float: right;
-  /*justify-self: flex-start;*/
+  color: #ffffff;
+
 
 }
 
@@ -21,8 +22,6 @@
   .footer__copyright {
     width: 300px;
     text-align: start;
-    margin: 0;
-    padding: 0;
     margin-top: 48px;
     margin-bottom: 24px;
 
@@ -34,18 +33,11 @@
 
 @media (max-width: 424px) {
   .footer__copyright {
+    margin: 48px 0 24px;
     width: 186px;
-    color: #ffffff;
-    padding: 0;
-    margin: 0;
-    margin-top: 48px;
-    font-style: normal;
-    font-weight: normal;
+    text-align: left;
     font-size: 14px;
     line-height: 14px;
-    text-align: left;
-    margin-bottom: 24px;
-    /*justify-self: flex-start;*/
 
   }
 

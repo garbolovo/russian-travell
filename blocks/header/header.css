@@ -1,16 +1,19 @@
 .header {
   text-rendering: optimizeLegibility;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+
+
 }
 
 /* Widescreen  1280px*/
 @media(min-width: 1281px) {
   .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 1184px;
     height: 52px;
-    margin: 0 auto;
     margin-bottom: 56px;
 
   }
@@ -23,12 +26,8 @@
 /* Normal  */
 @media(min-width: 1024px) and (max-width: 1280px) {
   .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     max-width: 928px;
     height: 52px;
-    margin: 0 auto;
     margin-bottom: 56px;
 
   }
@@ -37,12 +36,8 @@
 /*ipad*/
 @media(min-width: 768px) and (max-width: 1024px) {
   .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     max-width: 720px;
     height: 52px;
-    margin: 0 auto;
     margin-bottom: 56px;
 
   }
@@ -51,12 +46,8 @@
 /*duo*/
 @media(min-width: 425px) and (max-width: 767px) {
   .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     max-width: calc(100vw - 20px);
     height: 52px;
-    margin: 0 auto;
     margin-bottom: 48px;
     font-size: 40px;
     line-height: 44px;
@@ -70,13 +61,8 @@
 
 @media (max-width: 424px) {
   .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*max-width: calc(100vw);*/
     width: 288px;
     height: 42px;
-    margin: 0 auto;
     font-size: 40px;
     line-height: 44px;
 

@@ -29,9 +29,9 @@
 
 @media (max-width: 424px) {
   .page {
+    max-width: 1280px;
     min-height: 10023px;
     padding-top: 16px;
-    padding-bottom: 1px;
   }
 
 

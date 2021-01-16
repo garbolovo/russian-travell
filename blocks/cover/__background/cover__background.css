@@ -3,69 +3,62 @@
   background-size: 100% 100%;
   position: relative;
 
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1184px;
+  height: 740px;
+  margin: 0 auto;
+  margin-bottom: 92px;
 
 }
 
 
 @media (min-width: 1280px) {
-
   .cover__background {
     width: 1184px;
     height: 740px;
-    /*padding: 1px;*/
-
   }
 
 }
 
-
 @media (min-width: 1024px) and (max-width: 1279px) {
-
   .cover__background {
     width: 1024px;
     height: 640px;
-    /*padding: 1px;*/
-
   }
-
 
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px) {
   .cover__background {
-    /*width: 768px;*/
     width: calc(100vw);
     height: 480px;
-    /*padding: 1px;*/
-
   }
-
-
 
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
   .cover__background {
-    /*width: 425px;*/
     width: calc(100vw);
     height: 380px;
-    /*padding: 1px;*/
-
   }
 
-
-
 }
-
-
 
 @media (max-width: 425px) {
   .cover__background {
     width: 320px;
     height: 280px;
-    /*padding: 1px;*/
+
+  /*  added*/
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-bottom: 64px;
 
   }
 
