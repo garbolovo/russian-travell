@@ -3,7 +3,7 @@
   margin: 0;
   color: #ffffff;
   width: 690px;
-  height: 58px;
+  min-height: 58px;
   font-weight: 900;
   font-style: normal;
   font-size: 54px;
@@ -23,8 +23,6 @@
 
 @media (min-width: 425px) and (max-width: 768px) {
   .intro__title {
-    padding: 0;
-    margin: 0;
     color: #ffffff;
     max-width: calc(100%);
     font-weight: 900;
@@ -39,11 +37,9 @@
 
 @media (max-width: 424px) {
   .intro__title {
-    padding: 0;
-    margin: 0;
     color: #ffffff;
     max-width:288px;
-    height: 70px;
+    min-height: 70px;
     font-weight: 900;
     font-style: normal;
     font-size: 32px;

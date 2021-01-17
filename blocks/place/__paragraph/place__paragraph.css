@@ -2,6 +2,13 @@
   padding: 0;
   margin: 0;
   color: #ffffff;
+  line-height: 163%;
+  margin-bottom: 28px;
+  font-style: normal;
+  font-weight: normal;
+
+
+
 }
 
 /*widescreens over 1280*/
@@ -9,11 +16,7 @@
   .place__paragraph {
     text-align: left;
     max-width: 484px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
-    line-height: 163%;
-    margin-bottom: 28px;
 
 
   }
@@ -26,11 +29,7 @@
   .place__paragraph {
     text-align: left;
     max-width: 456px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
-    line-height: 163%;
-    margin-bottom: 28px;
 
 
   }
@@ -42,11 +41,7 @@
   .place__paragraph {
     text-align: left;
     max-width: 352px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 163%;
-    margin-bottom: 28px;
 
 
   }
@@ -57,11 +52,7 @@
   .place__paragraph {
     text-align: left;
     width: 100%;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 163%;
-    margin-bottom: 28px;
 
 
   }
@@ -79,11 +70,7 @@
 .place__paragraph {
   text-align: left;
   width: 288px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 163%;
-  margin-bottom: 28px;
 
 
 }
