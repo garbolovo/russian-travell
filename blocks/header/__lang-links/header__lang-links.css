@@ -3,9 +3,12 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+
   
 }
 
-.header__lang-links * {
-  display: inline-block;
+.header__lang-link:first-of-type {
+  margin-right: 10px;
 }

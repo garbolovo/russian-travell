@@ -46,7 +46,7 @@
 
   .intro {
     /*display: flex;*/
-    max-width: 720px;
+    max-width: calc(100%);
     /*min-height: 429px;*/
     color: #ffffff;
     margin-bottom: 64px;
