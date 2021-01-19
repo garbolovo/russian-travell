@@ -13,7 +13,6 @@
 @media(min-width: 1281px) {
   .header {
     width: 1184px;
-    height: 52px;
     margin-bottom: 56px;
 
   }
@@ -27,7 +26,6 @@
 @media(min-width: 1024px) and (max-width: 1280px) {
   .header {
     max-width: 928px;
-    height: 52px;
     margin-bottom: 56px;
 
   }
@@ -37,7 +35,6 @@
 @media(min-width: 768px) and (max-width: 1024px) {
   .header {
     max-width: 720px;
-    height: 52px;
     margin-bottom: 56px;
 
   }
@@ -47,7 +44,6 @@
 @media(min-width: 425px) and (max-width: 767px) {
   .header {
     max-width: calc(100vw - 20px);
-    height: 52px;
     margin-bottom: 48px;
     font-size: 40px;
     line-height: 44px;

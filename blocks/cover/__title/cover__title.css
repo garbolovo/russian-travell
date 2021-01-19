@@ -2,14 +2,11 @@
     padding: 0;
     margin-bottom: 32px;
     max-width: 650px;
-    min-height: 152px;
     text-decoration: none;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     color: #fff;
-    /*margin: 0 auto;*/
-    /*margin-top: 195px;*/
     text-align: center;
     position: relative;
 
@@ -23,14 +20,11 @@
         margin-top: 30px;
         margin-bottom: 16px;
         max-width: 288px;
-        min-height: 70px;
         text-decoration: none;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
         color: #fff;
-        /*margin: 0 auto;*/
-        /*margin-top: 195px;*/
         text-align: center;
         position: relative;
 
