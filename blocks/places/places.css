@@ -3,7 +3,6 @@
 @media(min-width: 1281px) {
 .places {
     max-width: 984px;
-    min-height: 3392px;
     margin: 0 auto;
     padding: 0;
     color: #ffffff;
@@ -17,7 +16,6 @@
 @media(min-width: 1025px) and (max-width: 1280px) {
     .places {
         max-width: 984px;
-        min-height: 3392px;
         margin: 0 auto;
         padding: 0;
         color: #ffffff;
@@ -30,7 +28,6 @@
 @media(min-width: 768px) and (max-width: 1024px) {
     .places {
         max-width: 720px;
-        min-height: 2808px;
         margin: 0 auto;
         padding: 0;
         color: #ffffff;
@@ -47,7 +44,6 @@
         flex-direction: column;
         align-items: center;
         max-width: calc(100vw);
-        min-height: auto;
         margin: 0 auto;
         padding: 0;
         color: #ffffff;
@@ -60,7 +56,6 @@
 @media (max-width: 424px) {
     .places {
         max-width: 320px;
-        /*min-height: 5177px;*/
         display: flex;
         flex-direction: column;
         align-items: center;
