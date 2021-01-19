@@ -1,6 +1,5 @@
 .lead__caption {
   width: 159px;
-  height: 14px;
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
@@ -25,7 +24,6 @@
 @media(min-width: 425px) and (max-width: 767px) {
 .lead__caption {
   width: 159px;
-  /*height: 14px;*/
   font-weight: 400;
   font-style: normal;
   font-size: 10px;
@@ -50,7 +48,6 @@
 
   .lead__caption {
     width: 159px;
-    /*height: 14px;*/
     font-weight: 400;
     font-style: normal;
     font-size: 10px;

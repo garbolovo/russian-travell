@@ -9,7 +9,7 @@
 
   .lead__subtitle {
     width: 640px;
-    min-height: 72px;
+    /* min-height: 72px; */
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
@@ -26,7 +26,7 @@
 @media(max-width: 1279px) and (min-width: 1024px) {
   .lead__subtitle {
     width: 640px;
-    min-height: 72px;
+    /* min-height: 72px; */
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
@@ -43,7 +43,7 @@
 @media(min-width: 768px) and (max-width: 1024px) {
   .lead__subtitle {
     width: 640px;
-    min-height: 72px;
+    /* min-height: 72px; */
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
@@ -58,7 +58,7 @@
 @media(min-width: 425px) and (max-width: 767px) {
   .lead__subtitle {
     width: 425px;
-    min-height: 55px;
+    /* min-height: 55px; */
     font-weight: normal;
     font-size: 25px;
     line-height: 27px;
@@ -73,7 +73,6 @@
 @media (max-width: 424px) {
   .lead__subtitle {
     width: 288px;
-    /*height: 55px;*/
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;

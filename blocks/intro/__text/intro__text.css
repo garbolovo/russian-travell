@@ -3,10 +3,9 @@
   margin: 0;
   font-weight: normal;
   font-size: 16px;
-  line-height: 26.08px;
+  line-height: 26px;
   color: #ffffff;
   width: 690px;
-  height: 208px;
   margin-bottom: 40px;
 }
 
@@ -25,7 +24,6 @@
     line-height: 26.08px;
     color: #ffffff;
     width: 720px;
-    height: 208px;
     margin-bottom: 40px;
   }
 }
@@ -42,7 +40,6 @@
     color: #ffffff;
     width: 420px;
     /*max-width: calc(100vw - 16px);*/
-    min-height: 380px;
     margin-bottom: 34px;
   }
 }
@@ -57,9 +54,7 @@
     line-height: 163%;
     text-align: justify;
     color: #ffffff;
-    /*width: 720px;*/
     max-width: 288px;
-    height: 520px;
     margin-bottom: 34px;
   }
 
