@@ -1,4 +1,3 @@
-/*1280* Widescreen/ */
 .places {
   max-width: 984px;
   margin: 0 auto;
@@ -7,14 +6,11 @@
 
 }
 
-
-/*normal*/
 @media (min-width: 1025px) and (max-width: 1279px) {
   .places {
     max-width: 984px;
 
   }
-
 }
 
 /*iPad*/

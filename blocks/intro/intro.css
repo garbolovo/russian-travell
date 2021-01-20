@@ -5,28 +5,15 @@
   align-self: flex-start;
 }
 
-
-
 @media (min-width: 1025px) and (max-width: 1279px) {
-
-
   .intro {
-    max-width: 690px;
-    color: #ffffff;
-    margin-bottom: 92px;
-    align-self: flex-start;
-
   }
-
 
 }
 
-
-/**/
 @media (min-width: 769px) and (max-width: 1024px) {
   .intro {
     max-width: 720px;
-    color: #ffffff;
     margin-bottom: 92px;
     align-self: center;
 
@@ -36,9 +23,7 @@
 @media (min-width: 425px) and (max-width: 768px) {
 
   .intro {
-    /*display: flex;*/
     max-width: calc(100%);
-    color: #ffffff;
     margin-bottom: 64px;
     align-self: center;
 
@@ -49,9 +34,7 @@
 @media (max-width: 424px) {
 
   .intro {
-    /*display: flex;*/
     width: 288px;
-    color: #ffffff;
     margin-bottom: 64px;
     align-self: center;
 
