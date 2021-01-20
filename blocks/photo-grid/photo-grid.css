@@ -1,90 +1,56 @@
 
+.photo-grid {
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 92px;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-gap: 16px;
 
-/* widescreen */
-@media(min-width: 1281px) {
-    .photo-grid {
-        padding: 0;
-        margin: 0 auto;
-        margin-bottom: 92px;
-        max-width: 1184px;
-        min-height: 671px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-        grid-gap: 16px;
-    
-        
-    }
+
 }
 
 /*  normal */
-@media(min-width: 1024px) and (max-width: 1280px) {
-    .photo-grid {
-        padding: 0;
-        margin: 0 auto;
-        margin-bottom: 92px;
-        max-width: 928px;
-        min-height: 942px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 14px;
-    
-        
-    }
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .photo-grid {
+    max-width: 928px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 14px;
+  }
 }
 
-  /*768 - 1023 */
-@media(min-width: 768px) and (max-width: 1024px) {
-    .photo-grid {
-        padding: 0;
-        margin: 0 auto;
-        margin-bottom: 92px;
-        max-width: 720px;
-        min-height: 1664px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-        grid-gap: 16px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 720px;
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
 
-
-    }
+  }
 }
 
+@media (min-width: 425px) and (max-width: 767px) {
+  .photo-grid {
+    margin-bottom: 64px;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100% 100%;
 
 
-
-@media(min-width:425px) and (max-width: 767px){
-    .photo-grid {
-        padding: 0;
-        margin: 0 auto;
-        margin-bottom: 64px;
-        width: 425px;
-        min-height: 2724px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-size: 100% 100%;
-
-
-    }
-
+  }
 
 }
 
+@media (max-width: 424px) {
+  .photo-grid {
+    margin-bottom: 64px;
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
 
 
-/* mobile 425  */
-
-@media(max-width:424px){
-    .photo-grid {
-        padding: 0;
-        margin: 0 auto;
-        margin-bottom: 64px;
-        max-width: 288px;
-        min-height: 2724px;
-        display: flex;
-        flex-direction: column;
-
-
-    }
+  }
 
 
 }

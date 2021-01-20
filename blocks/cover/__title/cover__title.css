@@ -1,12 +1,12 @@
 .cover__title {
     padding: 0;
     margin-bottom: 32px;
-    max-width: 650px;
+    max-width: 560px;
     text-decoration: none;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     position: relative;
 
@@ -24,9 +24,8 @@
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        color: #fff;
         text-align: center;
-        position: relative;
+        /*position: relative;*/
 
 
 
@@ -45,14 +44,12 @@
         margin-top: 30px;
         margin-bottom: 16px;
         max-width: 288px;
-        min-height: 70px;
         text-decoration: none;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        color: #fff;
         text-align: center;
-        position: relative;
+        /*position: relative;*/
 
 
 

@@ -1,7 +1,7 @@
 .place__title {
     padding: 0;
     margin: 0;
-    width: 460px;
+    max-width: 460px;
     font-weight: 900;
     font-style: normal;
     font-size: 72px;
@@ -10,17 +10,13 @@
     box-sizing: border-box;
 }
 
-.place__title:nth-of-type(2) {
-    min-height: 76px;
-}
-
 
 /*normal*/
 @media(min-width: 1025px) and (max-width: 1280px) {
     .place__title {
         padding: 0;
         margin: 0;
-        width: 440px;
+        max-width: 440px;
         font-weight: 900;
         font-size: 72px;
         line-height: 76px;
@@ -33,7 +29,7 @@
     .place__title {
         padding: 0;
         margin: 0;
-        width: 340px;
+        max-width: 340px;
         font-weight: 900;
         font-size: 42px;
         line-height: 46px;
@@ -46,7 +42,7 @@
     .place__title {
         padding: 0;
         margin: 0;
-        width: 225px;
+        max-width: 225px;
         font-weight: 900;
         font-size: 42px;
         line-height: 46px;
@@ -61,7 +57,7 @@
         padding: 0;
         margin: 0;
         margin-bottom: 32px;
-        width: 288px;
+        max-width: 288px;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;

@@ -7,22 +7,12 @@
 }
 
 @media (min-width: 424px) and (max-width: 767px) {
-
-
   .footer__links {
     flex-direction: column;
 
   }
 
-  .footer__links > * {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 32px;
-
-  }
-
 }
-
 
 @media (max-width: 424px) {
 
@@ -30,11 +20,6 @@
     flex-direction: column;
   }
 
-  .footer__links > * {
-    padding: 0;
-    margin: 0 0 32px;
-
-  }
 
 }
 

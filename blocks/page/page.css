@@ -1,5 +1,4 @@
 .page {
-
   /* smoothing fonts*/
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -9,31 +8,18 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 
-
-
-
-
   padding-bottom: 1px;
   background: #2A2C2F;
   padding-top: 28px;
-  font-family: 'Inter', Helvetica Neue, serif, sans-serif;
-
-
+  font-family: 'Inter', 'Helvetica Neue', serif, sans-serif;
 }
 
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
-  }
-}
 
 @media (max-width: 424px) {
   .page {
     max-width: 1280px;
-    /*min-height: 10023px;*/
     padding-top: 16px;
   }
-
 
 }
 

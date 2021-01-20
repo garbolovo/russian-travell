@@ -1,29 +1,16 @@
 .header {
+  margin: 0 auto;
+  margin-bottom: 56px;
+  width: 1184px;
   text-rendering: optimizeLegibility;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-
-
 
 }
-
-/* Widescreen  1280px*/
-@media(min-width: 1281px) {
-  .header {
-    width: 1184px;
-    margin-bottom: 56px;
-
-  }
-  
-
-}
-
-
 
 /* Normal  */
-@media(min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .header {
     max-width: 928px;
     margin-bottom: 56px;
@@ -32,37 +19,28 @@
 }
 
 /*ipad*/
-@media(min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .header {
     max-width: 720px;
     margin-bottom: 56px;
-
   }
 }
 
 /*duo*/
-@media(min-width: 425px) and (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .header {
-    max-width: calc(100vw - 20px);
+    max-width: calc(90%);
     margin-bottom: 48px;
     font-size: 40px;
     line-height: 44px;
-
-
   }
 }
-
-
-
 
 @media (max-width: 424px) {
   .header {
     width: 288px;
-    height: 42px;
     font-size: 40px;
     line-height: 44px;
-
-
   }
 
 }
