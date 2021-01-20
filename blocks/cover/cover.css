@@ -46,11 +46,7 @@
     margin-bottom: 64px;
 
   }
-
-
-
 }
-
 
 .cover::before {
   content: "";
