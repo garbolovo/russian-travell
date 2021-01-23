@@ -51,7 +51,7 @@
 
   .place__paragraph {
     text-align: left;
-    width: 100%;
+    max-width: 100%;
     font-size: 16px;
 
 
