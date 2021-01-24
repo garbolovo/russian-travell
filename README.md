@@ -2,7 +2,7 @@
 
 
 Ссылка на проект на Github Pages - https://garbolovo.github.io/russian-travell/
-
+Ссылка - http://ch08975.tmweb.ru/
 
 
 ### Обзор
