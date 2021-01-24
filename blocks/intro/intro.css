@@ -23,7 +23,8 @@
 @media (min-width: 425px) and (max-width: 768px) {
 
   .intro {
-    max-width: calc(100%);
+    /*max-width: calc(100%);*/
+    max-width: 420px;
     margin-bottom: 64px;
     align-self: center;
 

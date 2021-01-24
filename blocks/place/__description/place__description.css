@@ -1,15 +1,6 @@
-.place__description {
-}
-
-
-
-
-
-
 @media (min-width: 521px) and (max-width: 768px) {
 
   .place__description {
-    /*max-width: 100%;*/
     max-width: 220px;
     display: flex;
     flex-direction: column;
