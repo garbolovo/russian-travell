@@ -1,44 +1,55 @@
-
 /*wide*/
-    .place__website {
-    padding: 0;
-    margin: 0;
-    width: 456px;
-    align-self: end;
-    box-sizing: border-box;
+.place__website {
+  padding: 0;
+  margin: 0;
+  width: 456px;
+  align-self: end;
+  box-sizing: border-box;
+
 }
+
 /*normal*/
 @media (max-width: 1280px) and (min-width: 1024px) {
 
-    .place__website {
-        width: 456px;
+  .place__website {
+    width: 456px;
 
-    }
+  }
 
 }
 
 /*ipad*/
 @media (min-width: 768px) and (max-width: 1024px) {
-    .place__website {
-        width: 352px;
-    }
+  .place__website {
+    width: 352px;
+  }
 }
 
+
+@media (min-width: 521px) and (max-width: 768px) {
+  .place__website {
+    max-width: 220px;
+  }
+}
+
+
 /*duo*/
-@media (min-width: 425px) and (max-width: 768px) {
-    .place__website {
-        width: 225px;
-    }
+@media (min-width: 425px) and (max-width: 520px) {
+  .place__website {
+    width: 420px;
+    align-self: center;
+  }
 
 }
 
 @media (max-width: 424px) {
 
-    .place__website {
-        width: 288px;
-        align-self: center;
+  .place__website {
+    width: 288px;
+    align-self: center;
 
-    }
+
+  }
 
 }
 
