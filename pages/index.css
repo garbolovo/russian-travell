@@ -3,7 +3,6 @@
 
 /* page */
 @import url("../blocks/page/page.css");
-@import url("../blocks/flex-wrapper/flex-wrapper.css");
 
 /* lead */
 @import url("../blocks/lead/lead.css");
@@ -39,8 +38,6 @@
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__link/cover__link.css");
-@import url("../blocks/cover/__background/cover__background.css");
-
 
 /*footer*/
 @import url("../blocks/footer/footer.css");
@@ -55,7 +52,3 @@
 @import url("../blocks/header/__lang-links/header__lang-links.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
 @import url("../blocks/header/__lang-link/_type/header__lang-link_type_active.css");
-@import url("../blocks/header/__lang-link/_type/header__lang-link_type_last.css");
-
-
-

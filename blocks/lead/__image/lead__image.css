@@ -8,7 +8,7 @@
   }
 
 /*normal*/
-@media (min-width: 1025px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .lead__image {
     max-width: 928px;
     height: 580px;
@@ -18,7 +18,7 @@
 }
 
 /*iPad*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .lead__image {
     max-width: 100%;
     height: 480px;

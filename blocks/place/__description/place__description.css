@@ -1,4 +1,13 @@
-@media (min-width: 521px) and (max-width: 768px) {
+
+
+
+
+
+
+
+
+
+@media (min-width: 521px) and (max-width: 767px) {
 
   .place__description {
     max-width: 220px;

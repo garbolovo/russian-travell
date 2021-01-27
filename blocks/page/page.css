@@ -8,6 +8,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 
+  text-rendering: optimizeLegibility;
+
+
   padding-bottom: 1px;
   background: #2A2C2F;
   padding-top: 28px;

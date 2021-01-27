@@ -36,6 +36,7 @@
 
 @media (max-width: 424px) {
   .header {
+    margin-bottom: 48px;
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;

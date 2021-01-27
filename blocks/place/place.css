@@ -1,26 +1,23 @@
 
 .place {
   max-width: 984px;
+  margin: 0 auto;
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: fit-content(152px) fit-content(460px);
   grid-auto-rows: 0;
   gap: 48px 40px;
-  box-sizing: border-box;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    /*grid-template-rows: fit-content(152px) max-content;*/
-    /*grid-template-rows: fit-content(152px) fit-content(460px);*/
-
-
     grid-template-columns: 440px 456px;
-
     max-width: 928px;
     grid-auto-rows: 0;
     gap: 48px 32px;
+
+
   }
 }
 
