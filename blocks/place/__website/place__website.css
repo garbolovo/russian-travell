@@ -5,17 +5,13 @@
   width: 456px;
   align-self: end;
   box-sizing: border-box;
-
 }
 
 /*normal*/
 @media (min-width: 1024px) and (min-width: 1279px) {
-
   .place__website {
     width: 456px;
-
   }
-
 }
 
 /*ipad*/
@@ -25,13 +21,11 @@
   }
 }
 
-
 @media (min-width: 521px) and (max-width: 767px) {
   .place__website {
     max-width: 220px;
   }
 }
-
 
 /*duo*/
 @media (min-width: 425px) and (max-width: 520px) {
@@ -39,20 +33,11 @@
     width: 420px;
     align-self: center;
   }
-
 }
 
 @media (max-width: 424px) {
-
   .place__website {
     width: 288px;
     align-self: center;
-
-
   }
-
 }
-
-
-
-

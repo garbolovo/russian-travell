@@ -9,32 +9,18 @@
   text-align: left;
   font-size: 18px;
   max-width: 484px;
-
-
-
 }
 
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
-
-
 /*normal*/
 @media (min-width: 1024px) and (max-width: 1280px) {
   .place__paragraph {
     max-width: 456px;
-
   }
-
 }
-
-/* @media (max-width: 1024px) {
-  .place__paragraph {
-    font-size: 16px;
-  }
-} */
-
 
 /*iPads & big phones*/
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -42,33 +28,13 @@
     text-align: left;
     max-width: 352px;
     font-size: 16px;
-
-
   }
 }
-
 
 @media (max-width: 424px) {
   .place__paragraph {
     text-align: left;
-    width: 288px;
+    max-width: 288px;
     font-size: 16px;
-
-
   }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

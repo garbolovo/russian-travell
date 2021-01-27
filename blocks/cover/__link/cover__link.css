@@ -42,10 +42,6 @@
   }
 }
 
-
-
-
-
 .cover__link::before {
   content: "";
   position: absolute;

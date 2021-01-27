@@ -7,16 +7,11 @@
   font-style: normal;
   font-size: 12px;
   line-height: 1.5;
-
-  
 }
 
-@media(min-width: 425px) and (max-width: 767px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .intro__list {
     width: 420px;
     margin: 0 auto;
   }
-
-
 }
-

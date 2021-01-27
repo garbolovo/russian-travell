@@ -3,9 +3,7 @@
   color: #ffffff;
   margin-bottom: 92px;
   margin-left: 148px;
-  /* align-self: flex-start; */
 }
-
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .intro {
@@ -13,31 +11,20 @@
     margin: 0 auto;
     margin-bottom: 88px;
     margin-left: 48px;
-
-
-
   }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
-
   .intro {
     max-width: 420px;
     margin-bottom: 64px;
-
   }
-
 }
 
 @media (max-width: 424px) {
-
   .intro {
     width: 288px;
     margin: 0 auto;
     margin-bottom: 64px;
-
   }
-
 }
-
-

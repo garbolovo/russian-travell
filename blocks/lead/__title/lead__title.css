@@ -10,9 +10,6 @@
   text-align: center;
 }
 
-
-
-
 @media (min-width: 425px) and (max-width: 767px) {
   .lead__title {
     max-width: 425px;
@@ -29,9 +26,4 @@
     font-size: 40px;
     line-height: 44px;
   }
-
-
 }
-
-
-
