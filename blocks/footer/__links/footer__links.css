@@ -6,13 +6,7 @@
   color: #ffffff;
 }
 
-@media (min-width: 424px) and (max-width: 767px) {
-  .footer__links {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .footer__links {
     flex-direction: column;
   }

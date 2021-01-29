@@ -13,7 +13,7 @@
   opacity: 0.8;
 }
 
-.footer__link:nth-last-of-type {
+.footer__link:last-of-type {
   margin-right: 0;
 }
 
@@ -21,10 +21,6 @@
   .footer__link {
     margin: 0;
     margin-bottom: 28px;
-  }
-
-  .footer__link:nth-of-type(5) {
-    margin: 0;
   }
 }
 
@@ -35,9 +31,5 @@
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 32px;
-  }
-
-  .footer__link:nth-of-type(5) {
-    margin: 0;
   }
 }
