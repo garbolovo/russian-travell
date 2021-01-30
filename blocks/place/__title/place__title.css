@@ -1,7 +1,6 @@
 .place__title {
   padding: 0;
   margin: 0;
-  max-width: 460px;
   font-weight: 900;
   font-style: normal;
   font-size: 72px;
@@ -11,14 +10,12 @@
 /*normal*/
 @media (min-width: 1024px) and (max-width: 1279px) {
   .place__title {
-    max-width: 440px;
   }
 }
 
 /*ipad*/
 @media (min-width: 768px) and (max-width: 1023px) {
   .place__title {
-    max-width: 340px;
     font-size: 42px;
     line-height: 46px;
   }
@@ -27,7 +24,6 @@
 /*duo*/
 @media (min-width: 521px) and (max-width: 767px) {
   .place__title {
-    max-width: 225px;
     font-size: 42px;
     line-height: 46px;
     align-self: flex-start;
@@ -36,16 +32,19 @@
 
 @media (min-width: 425px) and (max-width: 520px) {
   .place__title {
-    width: 420px;
     font-size: 42px;
     line-height: 46px;
+    align-self: flex-start;
+    margin-left: 16px;
+
   }
 }
 
 @media (max-width: 424px) {
   .place__title {
-    width: 288px;
     font-size: 32px;
     line-height: 35px;
+    align-self: flex-start;
+    margin-left: 16px;
   }
 }
