@@ -5,17 +5,28 @@
   margin-left: 148px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 1280px) {
+  .intro {
+    margin: 0;
+    border: orangered 1px solid;
+    margin-left: 100px;
+    margin-bottom: 92px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
   .intro {
     max-width: 720px;
     margin: 0 auto;
     margin-bottom: 88px;
-    margin-left: 48px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
   .intro {
+    margin: 0 auto;
     max-width: 420px;
     margin-bottom: 64px;
   }
