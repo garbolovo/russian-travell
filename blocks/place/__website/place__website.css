@@ -18,13 +18,7 @@
   }
 }
 
-@media (min-width: 521px) and (max-width: 767px) {
-  .place__website {
-  }
-}
-
-/*duo*/
-@media (min-width: 425px) and (max-width: 520px) {
+@media (min-width: 425px) and (max-width: 767px) {
   .place__website {
     align-self: flex-start;
     margin-left: 16px;
