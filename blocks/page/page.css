@@ -16,6 +16,7 @@
   font-family: "Inter", "Helvetica Neue", sans-serif;
 }
 
+
 @media (max-width: 424px) {
   .page {
     max-width: 1280px;

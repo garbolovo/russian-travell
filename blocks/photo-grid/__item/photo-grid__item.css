@@ -32,8 +32,6 @@
 
 @media (max-width: 424px) {
   .photo-grid__item {
-    padding: 0;
-    margin: 0;
     width: 288px;
     min-height: 216px;
     margin-bottom: 12px;
