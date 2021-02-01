@@ -1,21 +1,8 @@
-/*wide*/
 .place__website {
   padding: 0;
   margin: 0;
   align-self: end;
   box-sizing: border-box;
-}
-
-/*normal*/
-@media (min-width: 1024px) and (min-width: 1279px) {
-  .place__website {
-  }
-}
-
-/*ipad*/
-@media (min-width: 768px) and (max-width: 1023px) {
-  .place__website {
-  }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {

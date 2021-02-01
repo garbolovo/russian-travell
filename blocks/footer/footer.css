@@ -6,28 +6,24 @@
   justify-content: space-between;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .footer {
     max-width: 928px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .footer {
     max-width: 720px;
   }
 }
 
-
-@media (min-width: 321px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .footer {
-    /*margin: 0 auto;*/
     margin-bottom: 24px;
-
     flex-direction: column;
   }
 }
-
 
 @media (max-width: 320px) {
   .footer {

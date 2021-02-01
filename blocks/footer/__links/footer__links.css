@@ -16,19 +16,16 @@
 
 @media (max-width: 700px) {
   .footer__links {
-    flex-direction: column;
     margin-left: 10vw;
   }
 }
 @media (max-width: 600px) {
   .footer__links {
-    flex-direction: column;
     margin-left: 5vw;
   }
 }
 @media (max-width: 425px) {
   .footer__links {
-    flex-direction: column;
     margin-left: 10vw;
   }
 }
@@ -36,7 +33,6 @@
 
 @media (max-width: 320px) {
   .footer__links {
-    flex-direction: column;
     margin-left: 0;
   }
 }

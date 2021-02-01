@@ -9,7 +9,6 @@
   box-sizing: border-box;
 }
 
-/*  normal */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
     max-width: 928px;

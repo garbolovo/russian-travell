@@ -1,7 +1,6 @@
 .place {
   max-width: 984px;
-  margin: 0 auto;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: fit-content(152px) fit-content(460px);
@@ -18,7 +17,6 @@
   }
 }
 
-/*ipad*/
 @media (min-width: 768px) and (max-width: 1023px) {
   .place {
     max-width: 720px;
@@ -30,13 +28,11 @@
   }
 }
 
-
 @media (min-width: 425px) and (max-width: 767px) {
   .place {
     box-sizing: border-box;
-    max-width: 90%;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    max-width: 100%;
+    margin: 0 auto 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +42,6 @@
   }
 }
 
-/*phone*/
 @media (max-width: 424px) {
   .place {
     box-sizing: border-box;

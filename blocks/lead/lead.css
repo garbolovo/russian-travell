@@ -14,14 +14,12 @@
   }
 }
 
-/* iPad 768 - 1024 */
 @media (min-width: 768px) and (max-width: 1023px) {
   .lead {
     max-width: 768px;
   }
 }
 
-/*Big Phone*/
 @media (min-width: 425px) and (max-width: 767px) {
   .lead {
     max-width: 420px;
@@ -29,7 +27,6 @@
   }
 }
 
-/* mobile */
 @media (max-width: 425px) {
   .lead {
     max-width: 320px;

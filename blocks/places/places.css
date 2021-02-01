@@ -36,7 +36,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 424px;
+    max-width: 424px;
   }
 }
 
