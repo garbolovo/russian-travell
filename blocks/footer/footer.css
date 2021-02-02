@@ -20,14 +20,21 @@
 
 @media (max-width: 767px) {
   .footer {
+    max-width: 100%;
     margin-bottom: 24px;
     flex-direction: column;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    margin-left: 16px;
   }
 }
 
 @media (max-width: 320px) {
   .footer {
-
     padding: 0;
     margin: 0 0 24px 16px;
     flex-direction: column;

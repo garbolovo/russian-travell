@@ -30,8 +30,8 @@
 
 @media (min-width: 521px) and (max-width: 767px) {
   .cover__link {
-    max-width: 520px;
-    min-height: 320px;
+    max-width: 100%;
+    min-height: 450px;
   }
 }
 
@@ -39,14 +39,14 @@
 
 @media (min-width: 425px) and (max-width: 520px) {
   .cover__link {
-    max-width: 425px;
-    min-height: 300px;
+    max-width: 100%;
+    min-height: 320px;
   }
 }
 
 @media (max-width: 424px) {
   .cover__link {
-    max-width: 320px;
+    max-width: 100%;
     min-height: 200px;
   }
 }
